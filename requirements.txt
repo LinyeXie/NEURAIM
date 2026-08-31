@@ -1,4 +1,8 @@
-ultralytics>=8.4,<9
-PyYAML>=6.0,<7
-Pillow>=10,<13
-pytest>=8.0,<9
+interception_python==1.13.6
+mss==10.2.0
+numpy==2.5.2
+opencv_python==4.13.0.92
+Pillow==12.3.0
+PyYAML==6.0.3
+torch==2.11.0+cu130
+ultralytics==8.4.107
