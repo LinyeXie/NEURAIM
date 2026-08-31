@@ -1,0 +1,10 @@
+# Dataset root is resolved relative to this YAML file.
+path: ../data
+train: images/train
+val: images/val
+
+names:
+  0: fb
+  1: eb
+  2: fh
+  3: eh

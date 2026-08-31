@@ -1,0 +1,33 @@
+# Ultralytics YOLO detection training configuration.
+model: yolo26n.pt
+data: configs/data.yaml
+
+epochs: 100
+imgsz: 800
+batch: 16
+device: 0
+workers: 8
+patience: 30
+amp: true
+cache: false
+
+project: runs
+name: enemy_detector
+exist_ok: false
+seed: 42
+deterministic: true
+
+# Keep color changes conservative because faction color can be important.
+hsv_h: 0.01
+hsv_s: 0.30
+hsv_v: 0.20
+degrees: 0.0
+translate: 0.10
+scale: 0.30
+shear: 0.0
+perspective: 0.0
+flipud: 0.0
+fliplr: 0.5
+mosaic: 0.5
+mixup: 0.0
+close_mosaic: 10

@@ -1,0 +1,4 @@
+ultralytics>=8.4,<9
+PyYAML>=6.0,<7
+Pillow>=10,<13
+pytest>=8.0,<9
